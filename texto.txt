@@ -6,3 +6,20 @@ webapp/
        logo.png
        favicon.png
        otras imágenes (si tienes)
+async function testBackend() {
+  try {
+    const res = await fetch(API_URL + "/");
+    const data = await res.json();
+    alert("Servidor dice: " + data.message);
+  } catch (err) {
+    console.error(err);
+    alert("Error conectando con el servidor");
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("test-backend-btn");
+  if (btn) {
+    btn.addEventListener("click", testBackend);
+  }
+});
