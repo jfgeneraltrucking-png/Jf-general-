@@ -1,7 +1,7 @@
 webapp/
    index.html
    styles.css
-   app.js
+   app.js const API_URL = "https://jfgeneral-backend2-production.up.railway.app";
    assets/
        logo.png
        favicon.png
