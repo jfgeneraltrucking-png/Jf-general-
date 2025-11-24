@@ -1,0 +1,8 @@
+webapp/
+   index.html
+   styles.css
+   app.js
+   assets/
+       logo.png
+       favicon.png
+       otras imágenes (si tienes)
