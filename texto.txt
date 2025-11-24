@@ -1,5 +1,5 @@
 webapp/
-   index.html
+   index.html<button id="test-backend-btn">Probar conexión con servidor</button>
    styles.css
    app.js const API_URL = "https://jfgeneral-backend2-production.up.railway.app";
    assets/
